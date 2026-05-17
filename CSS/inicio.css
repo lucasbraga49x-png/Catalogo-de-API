@@ -1,0 +1,138 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.inicio h1,
+.inicio p {
+    color: var(--color-text-primary);
+}
+
+.inicio h1 {
+    font-size: 27px;
+}
+
+.inicio p {
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.sessao {
+    width: 70%;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inicio-sessao {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.inicio-sessao h1 {
+    color: var(--color-text-primary);
+    font-size: 29px;
+}
+
+.catalogo {
+    width: 100%;
+    height: 350px;
+    border: 1px solid var(--color-border-main);
+    border-radius: 7px 0 0 7px;
+    overflow-y: auto;
+    background-color: var(--color-bg-main);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+}
+
+.catalogo::-webkit-scrollbar {
+    width: 8px;
+}
+
+.catalogo::-webkit-scrollbar-track {
+    background: var(--color-bg-scroll-track);
+    border-radius: 10px;
+}
+
+.catalogo::-webkit-scrollbar-thumb {
+    background: var(--color-scroll-thumb);
+    border-radius: 10px;
+    border: 2px solid var(--color-bg-scroll-track);
+}
+
+.catalogo::-webkit-scrollbar-thumb:hover {
+    background: var(--color-scroll-thumb-hover);
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-bg-card);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    gap: 10px;
+}
+
+.informativo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo {
+    width: 100%;
+}
+
+.titulo h2 {
+    color: var(--color-text-primary);
+}
+
+.descricao {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.descricao p {
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.botao {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao button {
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    background-color: var(--color-button-bg);
+    color: var(--color-text-primary);
+    font-size: 15px;
+    border: none;
+    font-weight: 550;
+}
+
+.botao button:hover {
+    background-color: var(--color-button-bg-hover);
+}
+

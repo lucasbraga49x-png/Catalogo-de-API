@@ -1,0 +1,23 @@
+{
+  "apis": [
+    {
+      "titulo": "Detalhes do Pokémon",
+      "url": "https://pokeapi.co/api/v2/pokemon/{id-ou-nome}",
+      "descricao": "Retorna todas as informações de um Pokémon específico pelo ID ou nome.",
+      "exemplo": "https://pokeapi.co/api/v2/pokemon/{nome-ou-id}",
+      "campos": [
+        "ID do Pokémon",
+        "Nome",
+        "Tipos",
+        "Habilidades (incluindo hidden)",
+        "Imagem (sprites)",
+        "Som (cries)",
+        "Base Experience",
+        "Altura",
+        "Peso"
+      ],
+      "observacao": "Você pode substituir {id-ou-nome} por um número ou pelo nome do Pokémon.",
+      "imagem": "../IMG/pokemon.png"
+    }
+  ]
+}

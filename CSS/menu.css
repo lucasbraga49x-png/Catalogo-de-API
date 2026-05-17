@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --color-background-primary: rgb(10, 14, 22);
+    --color-bg-main: rgb(15, 22, 36);
+    --color-bg-card: rgb(22, 31, 50);
+    --color-text-primary: rgb(240, 244, 255);
+    --color-text-secondary: rgb(148, 163, 184);
+    --color-background-links: rgb(30, 41, 59);
+    --color-border-main: rgb(51, 65, 85);
+    --color-bg-scroll-track: rgb(15, 22, 36);
+    --color-scroll-thumb: rgb(56, 189, 248);
+    --color-scroll-thumb-hover: rgb(14, 165, 233);
+    --color-button-bg: rgb(99, 102, 241);
+    --color-button-bg-hover: rgb(79, 70, 229);
+    --color-background-input: rgb(22, 31, 50);
+    --color-border-input: rgb(71, 85, 105);
+    --color-place-input: rgb(100, 116, 139);
+    --color-shadown-input: rgb(129, 140, 248);
+}
+
+:root.light-mode {
+    --color-background-primary: rgb(241, 245, 249);
+    --color-bg-main: rgb(241, 245, 249);
+    --color-bg-card: rgb(255, 255, 255);
+    --color-text-primary: rgb(15, 23, 42);
+    --color-text-secondary: rgb(71, 85, 105);
+    --color-background-links: rgb(226, 232, 240);
+    --color-border-main: rgb(203, 213, 225);
+    --color-bg-scroll-track: rgb(241, 245, 249);
+    --color-scroll-thumb: rgb(148, 163, 184);
+    --color-scroll-thumb-hover: rgb(100, 116, 139);
+    --color-button-bg: rgb(79, 70, 229);
+    --color-button-bg-hover: rgb(67, 56, 202);
+    --color-background-input: rgb(255, 255, 255);
+    --color-border-input: rgb(203, 213, 225);
+    --color-place-input: rgb(148, 163, 184);
+    --color-shadown-input: rgb(165, 180, 252);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    flex: 1;
+    gap: 40px;
+}
+
+body {
+    background-color: var(--color-background-primary);
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--color-background-primary);
+    padding: 15px 40px;
+    border-bottom: 1px solid var(--color-border-main);
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul .configuracoes {
+    margin-left: auto;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-text-primary);
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-background-links);
+}
+
+
+.configuracoes summary {
+    list-style: none;
+    cursor: pointer;
+    color: var(--color-text-primary);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.configuracoes summary:hover {
+    background-color: var(--color-background-links);
+}
+
+
+.configuracoes summary::-webkit-details-marker {
+    display: none;
+}
+
+
+.configuracoes details {
+    position: relative;
+}
+
+.configuracoes details[open] summary {
+    background-color: var(--color-background-links);
+}
+
+.configuracoes details button {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid var(--color-border-main);
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.configuracoes details button:hover {
+    background-color: var(--color-background-links);
+}

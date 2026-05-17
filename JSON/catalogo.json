@@ -1,0 +1,9 @@
+{
+    "catalogo": [
+        {
+            "nome": "Pokemon",
+            "descricao": "A PokéAPI é uma API REST gratuita que fornece dados completos sobre Pokémon, incluindo espécies, tipos, habilidades e evoluções, sendo ideal para projetos web e mobile.",
+            "pagina": "HTML/pokemon.html"
+        }
+    ]
+}

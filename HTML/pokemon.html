@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/pokemon.css">
+    <script src="../JS/pokemonApi.js" defer></script>
+    <script src="../JS/gerarMenu.js" defer></script>
+    <title>PokéAPI</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="inicio">
+            <h1>PokéAPI</h1>
+            <p>Veja agora como ela funciona</p>
+        </div>
+        <div class="sessao">
+            <div class="informativo">
+                <div class="titulo">
+                    <h2>Como funciona o PokéAPI</h2>
+                </div>
+                <div class="descricao">
+                    <p>Olhe as imagens abaixo e veja a sua estrutura para que você possa usar, nós já mostramos o que
+                        tem em cada.</p>
+                </div>
+            </div>
+            <div class="estruturas" id="estruturas"></div>
+        </div>
+        <details class="api-detalhes">
+            <summary>Ver exemplo da API Pokémon</summary>
+            <div class="tela-toda">
+                <div class="titulo">
+                    <h2>Faça a busca de vários pokemons</h2>
+                </div>
+                <div class="input">
+                    <input type="text" id="nomePokemon" placeholder="Nome ou ID do pokemon">
+                    <button onclick="buscarPokemon()">Buscar</button>
+                </div>
+
+                <div class="catalogo">
+                </div>
+            </div>
+
+        </details>
+    </main>
+    <script src="../JS/modos.js"></script>
+</body>
+
+</html>
