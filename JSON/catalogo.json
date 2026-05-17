@@ -1,9 +1,14 @@
 {
     "catalogo": [
         {
-            "nome": "Pokemon",
+            "nome": "PokéAPI",
             "descricao": "A PokéAPI é uma API REST gratuita que fornece dados completos sobre Pokémon, incluindo espécies, tipos, habilidades e evoluções, sendo ideal para projetos web e mobile.",
             "pagina": "HTML/pokemon.html"
+        },
+        {
+            "nome": "Jikan Animes",
+            "descricao": "A Jikan API fornece dados de animes do MyAnimeList, permitindo acessar informações como títulos, imagens, sinopse e avaliações.",
+            "pagina": "HTML/animes.html"
         }
     ]
 }

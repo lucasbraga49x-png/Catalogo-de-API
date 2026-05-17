@@ -63,7 +63,6 @@ async function ExibirPokemons() {
     const catalogo = document.querySelector(".catalogo");
 
     try {
-        catalogo.innerHTML = `<p style="color: rgb(44, 153, 62);">Carregando Pokémons...</p>`;
 
         const response = await fetch(`${API}?limit=100`);
         if (!response.ok) {
@@ -72,13 +71,13 @@ async function ExibirPokemons() {
 
         const dados = await response.json();
 
-       /* Já pega multiplas informações direto */
+        /* Já busca todas as informações e guarda na variável */
         const promessas = dados.results.map(pokemon => fetch(pokemon.url).then(res => res.json()));
 
-         
+
         const pokemonsDetalhes = await Promise.all(promessas);
 
-        /* joga no html */
+        /* joga no html conectando as duas functions*/
         const htmlCompleto = pokemonsDetalhes.map(criarCardPokemon).join("");
         catalogo.innerHTML = htmlCompleto;
 
@@ -118,7 +117,6 @@ async function buscarPokemon() {
         catalogo.innerHTML = `<p style="color: rgb(165, 5, 5)">Pokémon não encontrado! Verifique o nome e tente novamente.</p>`;
     }
 }
-
 ExibirPokemons();
 
 

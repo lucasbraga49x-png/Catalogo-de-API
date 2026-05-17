@@ -1,0 +1,21 @@
+{
+    "apis": [
+        {
+            "titulo": "Detalhes dos Animes (Jikan API)",
+            "url": "https://api.jikan.moe/v4/anime",
+            "descricao": "Retorna informações sobre animes como título, imagem, sinopse, nota e gêneros.",
+            "campos": [
+                "ID do anime (mal_id)",
+                "Título",
+                "Imagem da capa",
+                "Sinopse (descrição)",
+                "Nota (score)",
+                "Gêneros",
+                "Temas",
+                "Popularidade"
+            ],
+            "observacao": "Você pode usar ?q=nome para buscar animes ou /anime/{id} para detalhes específicos.",
+            "imagem": "../IMG/anime.png"
+        }
+    ]
+}

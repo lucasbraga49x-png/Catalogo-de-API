@@ -1,0 +1,261 @@
+.inicio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.inicio h1,
+.inicio p {
+    color: var(--color-text-primary);
+}
+
+.inicio h1 {
+    font-size: 27px;
+}
+
+.inicio p {
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.sessao {
+    width: 70%;
+    min-height: 80vh;
+    border: 1px solid var(--color-border-main);
+    border-radius: 7px;
+    background-color: var(--color-bg-main);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+}
+
+.informativo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo {
+    width: 100%;
+}
+
+.titulo h2 {
+    color: var(--color-text-primary);
+}
+
+.descricao {
+    width: 100%;
+}
+
+.descricao p {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.estruturas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.estrutura {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacoes h3 {
+    color: var(--color-text-primary);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.informacoes a {
+    color: var(--color-scroll-thumb);
+    text-decoration: none;
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.informacoes a:hover {
+    text-decoration: underline;
+    color: var(--color-scroll-thumb-hover);
+}
+
+.informacoes ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: var(--color-text-secondary);
+}
+
+.informacoes li {
+    margin-bottom: 5px;
+}
+
+.informacoes p {
+    color: var(--color-text-secondary);
+}
+
+.imagem-json img {
+    width: 700px;
+}
+
+.api-detalhes {
+    width: 100%;
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-main);
+    border-radius: 8px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.api-detalhes summary {
+    cursor: pointer;
+    color: var(--color-text-primary);
+    font-weight: 600;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.api-detalhes summary::-webkit-details-marker {
+    display: none;
+}
+
+.api-detalhes summary:hover {
+    color: var(--color-scroll-thumb);
+}
+
+.tela-toda {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.catalogo {
+    width: 100%;
+    height: 350px;
+    border: 1px solid var(--color-border-main);
+    border-radius: 7px 0 0 7px;
+    overflow-y: auto;
+    background-color: var(--color-bg-main);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 30px;
+}
+
+.catalogo::-webkit-scrollbar {
+    width: 8px;
+}
+
+.catalogo::-webkit-scrollbar-track {
+    background: var(--color-bg-scroll-track);
+    border-radius: 10px;
+}
+
+.catalogo::-webkit-scrollbar-thumb {
+    background: var(--color-scroll-thumb);
+    border-radius: 10px;
+    border: 2px solid var(--color-bg-scroll-track);
+}
+
+.catalogo::-webkit-scrollbar-thumb:hover {
+    background: var(--color-scroll-thumb-hover);
+}
+
+
+.card {
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-bg-card);
+    display: flex;
+    border-radius: 8px; 
+    gap: 15px; 
+    overflow: hidden; 
+    border: 1px solid var(--color-border-main); 
+}
+
+.capa {
+    width: 35%; 
+    min-width: 120px; 
+    flex-shrink: 0; 
+}
+
+.capa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Container dos Textos */
+.informacoes {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 15px 15px 0;
+}
+
+.titulo-anime h3 {
+    color: var(--color-text-primary);
+    font-size: 18px;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Sinopse (Descrição) */
+.descricao {
+    display: -webkit-box;
+    -webkit-line-clamp: 6; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.descricao p {
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.avaliacao {
+    width: 100%;
+}
+.avaliacao p{
+     font-weight: bold;
+    color: rgb(231, 235, 18); 
+    font-size: 14px;
+}
+
+.temas {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 6px;
+    margin-top: auto; 
+}
+
+.temas span {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-primary);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--color-border-main);
+}
