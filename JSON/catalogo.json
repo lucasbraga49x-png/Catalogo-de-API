@@ -9,6 +9,12 @@
             "nome": "Jikan Animes",
             "descricao": "A Jikan API fornece dados de animes do MyAnimeList, permitindo acessar informações como títulos, imagens, sinopse e avaliações.",
             "pagina": "HTML/animes.html"
+        },
+
+        {
+            "nome":"DragonBall API",
+            "descricao":"Essa API mostra inumeros personagens de Dragon Ball e todas as informações de cada um deles",
+            "pagina":"HTML/dragonBall.html"
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "apis": [
+        {
+            "titulo": "API de Dragon Ball",
+            "url": "https://dragonball-api.com/api/characters",
+            "descricao": "Retorna informações sobre os personagens de Dragon Ball como nome, tipo e etc.",
+            "campos": [
+                "Nome",
+                "imagem",
+                "raça",
+                "affiliation",
+                "Ki base",
+                "Ki maximo"
+            ],
+            "observacao": "Você pode usar ?q=nome para buscar animes ou /anime/{id} para detalhes específicos.",
+            "imagem": "../IMG/dragonBall.png"
+        }
+    ]
+}
