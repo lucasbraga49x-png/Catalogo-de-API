@@ -6,41 +6,41 @@
 }
 
 :root {
-    --color-background-primary: rgb(10, 14, 22);
-    --color-bg-main: rgb(15, 22, 36);
-    --color-bg-card: rgb(22, 31, 50);
-    --color-text-primary: rgb(240, 244, 255);
-    --color-text-secondary: rgb(148, 163, 184);
-    --color-background-links: rgb(30, 41, 59);
-    --color-border-main: rgb(51, 65, 85);
-    --color-bg-scroll-track: rgb(15, 22, 36);
-    --color-scroll-thumb: rgb(56, 189, 248);
-    --color-scroll-thumb-hover: rgb(14, 165, 233);
-    --color-button-bg: rgb(99, 102, 241);
-    --color-button-bg-hover: rgb(79, 70, 229);
-    --color-background-input: rgb(22, 31, 50);
-    --color-border-input: rgb(71, 85, 105);
-    --color-place-input: rgb(100, 116, 139);
-    --color-shadown-input: rgb(129, 140, 248);
+    --color-background-primary: rgb(17, 12, 34);
+    --color-bg-main: rgb(26, 20, 49);
+    --color-bg-card: rgb(36, 29, 66);
+    --color-text-primary: rgb(240, 235, 255);
+    --color-text-secondary: rgb(170, 160, 200);
+    --color-button-bg: rgb(139, 92, 246);
+    --color-button-bg-hover: rgb(124, 58, 237);
+    --color-shadown-input: rgba(167, 139, 250, 0.5);
+    --color-scroll-thumb: rgb(163, 230, 53);
+    --color-scroll-thumb-hover: rgb(190, 242, 100);
+    --color-background-links: rgba(163, 230, 53, 0.1);
+    --color-border-main: rgb(55, 45, 95);
+    --color-bg-scroll-track: rgb(17, 12, 34);
+    --color-background-input: rgb(26, 20, 49);
+    --color-border-input: rgb(76, 60, 125);
+    --color-place-input: rgb(110, 100, 140);
 }
 
 :root.light-mode {
-    --color-background-primary: rgb(241, 245, 249);
-    --color-bg-main: rgb(241, 245, 249);
+    --color-background-primary: rgb(245, 255, 254);
+    --color-bg-main: rgb(235, 248, 247);
     --color-bg-card: rgb(255, 255, 255);
-    --color-text-primary: rgb(15, 23, 42);
-    --color-text-secondary: rgb(71, 85, 105);
-    --color-background-links: rgb(226, 232, 240);
-    --color-border-main: rgb(203, 213, 225);
-    --color-bg-scroll-track: rgb(241, 245, 249);
-    --color-scroll-thumb: rgb(148, 163, 184);
-    --color-scroll-thumb-hover: rgb(100, 116, 139);
-    --color-button-bg: rgb(79, 70, 229);
-    --color-button-bg-hover: rgb(67, 56, 202);
+    --color-text-primary: rgb(15, 45, 55);
+    --color-text-secondary: rgb(70, 100, 110);
+    --color-button-bg: rgb(6, 182, 212);
+    --color-button-bg-hover: rgb(8, 145, 178);
+    --color-shadown-input: rgba(6, 182, 212, 0.3);
+    --color-scroll-thumb: rgb(132, 204, 22);
+    --color-scroll-thumb-hover: rgb(101, 163, 13);
+    --color-background-links: rgba(132, 204, 22, 0.15);
+    --color-border-main: rgb(210, 235, 235);
+    --color-bg-scroll-track: rgb(245, 255, 254);
     --color-background-input: rgb(255, 255, 255);
-    --color-border-input: rgb(203, 213, 225);
-    --color-place-input: rgb(148, 163, 184);
-    --color-shadown-input: rgb(165, 180, 252);
+    --color-border-input: rgb(180, 215, 215);
+    --color-place-input: rgb(130, 160, 160);
 }
 
 main {
